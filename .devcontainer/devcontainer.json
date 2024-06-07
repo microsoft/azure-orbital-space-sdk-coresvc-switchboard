@@ -1,13 +1,13 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/dotnet
 {
-	"name": "hostsvc-switchboard-builder",
+	"name": "coresvc-switchboard-builder",
 	"image": "mcr.microsoft.com/devcontainers/base:dev-ubuntu",
-	"workspaceFolder": "/workspaces/hostsvc-switchboard-builder",
-	"workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/hostsvc-switchboard-builder,type=bind,consistency=cached",
+	"workspaceFolder": "/workspaces/coresvc-switchboard-builder",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/coresvc-switchboard-builder,type=bind,consistency=cached",
 	"runArgs": [
 		"--name",
-		"hostsvc-switchboard-builder"
+		"coresvc-switchboard-builder"
 	],
 	"hostRequirements": {
 		"cpus": 4,
@@ -15,7 +15,7 @@
 	},
 	"features": {
 		"ghcr.io/microsoft/azure-orbital-space-sdk/spacefx-dev:0.11.0": {
-			"app_name": "hostsvc-switchboard-builder",
+			"app_name": "coresvc-switchboard-builder",
 			"app_type": "none",
             "cluster_enabled": "false"
 		}

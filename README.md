@@ -13,9 +13,9 @@ devcontainer up --workspace-folder ${PWD}
 
 
 
-bash /var/spacedev/build/build_containerImage.sh --dockerfile Dockerfiles/Dockerfile --image-tag 0.11.0 --architecture amd64 --repo-dir ${PWD} --app-name core-switchboard
+bash /var/spacedev/build/build_containerImage.sh --dockerfile Dockerfiles/Dockerfile --image-tag 0.11.0 --architecture amd64 --repo-dir ${PWD} --app-name coresvc-switchboard --annotation-config azure-orbital-space-sdk-coresvc-switchboard.yaml
 
-bash /var/spacedev/build/build_containerImage.sh --dockerfile Dockerfiles/Dockerfile --image-tag 0.11.0 --architecture arm64 --repo-dir ${PWD} --app-name core-switchboard
+bash /var/spacedev/build/build_containerImage.sh --dockerfile Dockerfiles/Dockerfile --image-tag 0.11.0 --architecture arm64 --repo-dir ${PWD} --app-name coresvc-switchboard --annotation-config azure-orbital-space-sdk-coresvc-switchboard.yaml
 ```
 
 ## Contributing
