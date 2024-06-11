@@ -4,7 +4,7 @@ on:
     workflow_dispatch:
     push:
         branches:
-        - km/badge_debug
+        - main
 
 jobs:
   build-coresvc-switchboard-amd64:
