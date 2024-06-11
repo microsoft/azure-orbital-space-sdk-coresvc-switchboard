@@ -1,5 +1,7 @@
 # Switchboard
 
+[![coresvc-switchboard-build](https://github.com/microsoft/azure-orbital-space-sdk-coresvc-switchboard/actions/workflows/coresvc-switchboard-build.yml/badge.svg)](https://github.com/microsoft/azure-orbital-space-sdk-coresvc-switchboard/actions/workflows/coresvc-switchboard-build.yml)
+
 Switchboard is the Azure Orbital Space SDK's MQTT router.  Switchboard builds [rabbitMQ](https://github.com/rabbitmq/rabbitmq-server) from source with updates to source images from the Microsoft Container Registry.
 
 ## Build
